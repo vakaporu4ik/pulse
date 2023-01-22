@@ -1,0 +1,35 @@
+.button {
+      // position: absolute
+      width: 153px;
+      height: 32px;
+      // background-color: $main-color dont work
+      background-color: blue;
+      border: none;
+      font-family: 'MuseoModerno';
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      // кнопка, модифик
+      &_main {
+            margin-top: 67px;
+            width: 303px;
+            height: 54px;
+            background-color: $main-color;
+            font-family: 'MuseoModerno';
+            font-size: 16px;
+            line-height: 25px;
+            // display: flex;
+            // align-items: flex-end;
+            // text-align: center;
+            text-transform: uppercase;
+      }
+      &__subbmit {
+            width: 303px;
+            height: 58px;
+            left: 0px;
+            top: 200px;
+            background: #C70101;
+                  }
+}
+  

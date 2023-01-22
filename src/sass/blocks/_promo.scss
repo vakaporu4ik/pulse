@@ -1,0 +1,47 @@
+.promo {
+     // min-height and padding from figma
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../../img/bg/onebg.png) center center/cover no-repeat;
+//     загаловок на гл.странице
+    &__wrapper {
+     display: flex;
+     // будут располагаться вертикально
+     flex-direction: column;
+     // выровнять перпендик
+     align-items: flex-end;
+     // отступ от заголовка
+     margin-top: 90px;
+     }
+     &__header {
+          font-family: 'MuseoModerno';
+          font-weight: 700;
+          font-size: 42px;
+          line-height: 42px;
+     }
+     &__subheader {
+          margin-top: 17px;
+          font-family: 'MuseoModerno';
+          font-weight: 500;
+          font-size: 34px;
+          line-height: 24px;
+     }
+     &__icons {
+          // position: absolute;
+          margin-top: 60px;
+          width: 424px;
+          height: 96px;
+     }
+     &__link {
+          margin-top: 20px;
+          font-family: 'MuseoModerno';
+          font-size: 16px;
+          a {
+               text-transform: uppercase;
+               color:aqua;
+               // underline — подчёркивание
+               text-decoration: underline;
+          }
+     }
+    }
+   

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PULSE</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="promo">
+        <div class="container">
+            <!-- тэг header c классом header -->
+            <header class="header">
+                <a href="#" class="header__logo">
+                    <img src="icons/logo.png" alt="logo">
+                </a>
+                <div class="header__official">
+                    Официальный представитель
+                    <span>Garmin, Polar, Suunto</span>
+                </div>
+                <div class="header__contacts">
+                    <!-- телефон отдельнім єлементом -->
+                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                    <!-- тэг с отдельным классом button, отдельный блок -->
+                    <button class="button">sing up</button>
+                </div>
+            </header>
+            <!-- обертка для первой стр -->
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h2 class="promo__subheader">C учётом Вашего уровня подготовки</h2>
+                <div class="promo__icons">
+                    <img src="icons/oneicons.png" alt="oneicons">
+                </div>
+                              <!-- button_main модификатор кнопки -->
+            <button class="button button_main">заказать консультацию</button>
+            <div class="promo__link">
+                или
+                <a href="#">ПЕРЕЙТИ в КАТАЛОГ</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <!-- общий для трех блоков -->
+            <div class="advantages__wrapper">
+                <!-- распределяем иконки и текст -->
+                <div class="advantages__item">
+                    <img src="icons/cup.png" alt="cup">
+                    <!-- заголовок -->
+                    <div class="advantages__subtitle">
+                        Делимся опытом
+                    </div>
+                    <!-- текст -->
+                    <div class="advantages__descr">
+                        Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                    </div>
+                </div>
+                <!-- распределяем иконки и текст -->
+                <div class="advantages__item">
+                    <img src="icons/cup.png" alt="cup">
+                    <!-- заголовок -->
+                    <div class="advantages__subtitle">
+                        Заботимся здоровье
+                    </div>
+                    <!-- текст -->
+                    <div class="advantages__descr">
+                        Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                    </div>
+                </div>
+                 <!-- распределяем иконки и текст -->
+                <div class="advantages__item">
+                     <img src="icons/cup.png" alt="cup">
+                    <!-- заголовок -->
+                    <div class="advantages__subtitle">
+                        Учим бегать
+                    </div>
+                    <!-- текст -->
+                    <div class="advantages__descr">
+                        Помогаем c обучением правильной технике! Дружим c крупнейшей школой - I LOVE RUNNING.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">Просто заполните форму заявки<br>
+            и мы перезвоним вам в течении 10 минут</div>
+             <!-- формы на сайтах, active- обработчик формы который будет запускаться -->
+        <form class="feed-form" action="#">
+            <!-- указатель
+            <label for="first">first input</label> input id="first-->
+            <!-- input-поле для ввода -->
+            <!-- placeholder атрибут, появляеться текст -->
+            <!-- value-атрибут-шаблон,изначально будет текст -->
+            <!-- required-атрибут для обязательного заполнения -->
+            <input name="name" required placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон" type="number">
+            <input name="email" required placeholder="Ваше E-mail" type="email">
+            <input name="end" type="reset">
+            <!-- submit	Кнопка для отправки данных формы на сервер -->
+            <!-- <input type="submit" value="заказать"> -->
+            <button class="button button__subbmit">заказать</button>
+        </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/sl1.png" alt="clock">
+                </div>
+                <div>
+                    <img src="img/sl2.png" alt="clocktwo">
+                </div>
+                <div>
+                    <img src="img/sl3.png" alt="clockthree">
+                </div>
+              </div>
+        </div>
+    </section>
+       
+<!-- JavaScript, src="js/script.js -путь-->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
